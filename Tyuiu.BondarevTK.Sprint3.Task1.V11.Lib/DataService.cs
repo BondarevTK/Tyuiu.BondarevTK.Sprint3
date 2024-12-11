@@ -11,6 +11,7 @@ namespace Tyuiu.BondarevTK.Sprint3.Task1.V11.Lib
             while (i < stopValue)
             {
                 sum = sum + Math.Pow(value,i) + 1/2;
+                i++;
             }
             return Math.Round(sum, 2);
         }
