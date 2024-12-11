@@ -12,6 +12,7 @@ namespace Tyuiu.BondarevTK.Sprint3.Task1.V11.Lib
             {
                 sum = sum + Math.Pow(value,i) + 1/2;
             }
+            return Math.Round(sum, 2);
         }
     }
 }
