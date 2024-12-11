@@ -10,7 +10,7 @@ namespace Tyuiu.BondarevTK.Sprint3.Task2.V19.Lib
             {
                 sum = sum + Math.Cos(startValue) * 0.5;
                 startValue++;
-            } while (startValue< stopValue);
+            } while (startValue <= stopValue);
             return Math.Round(sum, 3);
         }
     }
