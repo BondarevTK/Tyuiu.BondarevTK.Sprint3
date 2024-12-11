@@ -9,10 +9,11 @@ namespace Tyuiu.BondarevTK.Sprint3.Task1.V11.Lib
             double sum = 1;
             while (startValue <= stopValue)
             {
-                sum = sum * (Math.Pow(value,startValue) + (1/2));
+                sum = sum * (Math.Pow(value,startValue) + 0.5);
                 startValue++;
+                Console.WriteLine(sum);
             }
-            return sum;
+            return Math.Round(sum,3);
         }
     }
 }
