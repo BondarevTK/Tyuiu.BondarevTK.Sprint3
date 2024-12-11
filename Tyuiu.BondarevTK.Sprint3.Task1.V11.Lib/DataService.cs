@@ -6,14 +6,13 @@ namespace Tyuiu.BondarevTK.Sprint3.Task1.V11.Lib
     {
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            int i = startValue;
-            double sum = 0;
-            while (i < stopValue)
+            double sum = 1;
+            while (startValue <= stopValue)
             {
-                sum = sum + Math.Pow(value,i) + 1/2;
-                i++;
+                sum = sum * (Math.Pow(value,startValue) + (1/2));
+                startValue++;
             }
-            return Math.Round(sum, 2);
+            return sum;
         }
     }
 }
