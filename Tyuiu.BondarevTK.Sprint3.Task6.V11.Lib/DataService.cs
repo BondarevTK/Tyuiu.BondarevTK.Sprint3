@@ -8,7 +8,7 @@ namespace Tyuiu.BondarevTK.Sprint3.Task6.V11.Lib
             int count = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                if (i%10==0)
+                if (i>10)
                 {
                     count++;
                 }
