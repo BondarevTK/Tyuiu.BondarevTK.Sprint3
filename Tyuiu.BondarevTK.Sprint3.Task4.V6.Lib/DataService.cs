@@ -17,7 +17,7 @@ namespace Tyuiu.BondarevTK.Sprint3.Task4.V6.Lib
                 sum = sum + (x/(Math.Cos(x) - Math.Sin(x)));
 
             }
-            return sum;
+            return Math.Round(sum,3);
         }
     }
 }
