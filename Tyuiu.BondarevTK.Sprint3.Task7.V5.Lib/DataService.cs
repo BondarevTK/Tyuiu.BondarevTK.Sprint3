@@ -18,7 +18,7 @@ namespace Tyuiu.BondarevTK.Sprint3.Task7.V5.Lib
                     count++;
                     continue;
                 }
-                valueArray[count] = (2*Math.Sin(x)/(3*x+1.2)) + Math.Cos(x)-7*x*2;
+                valueArray[count] = Math.Round((2*Math.Sin(x)/(3*x+1.2)) + Math.Cos(x)-7*x*2,2);
                 count++;
             }
             return valueArray;
